@@ -63,3 +63,8 @@ elif(c1.lower() == 'red' and c2.lower() == 'green'):
 elif(c1.lower() == 'blue' and c2.lower() == 'green'):
     print("The color is cyan")
     >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+    
+    for i in range(1,13):
+    for c in range(13):
+        print(str(i) +"*"+str(c)+"="+str(i*c))
+   >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
