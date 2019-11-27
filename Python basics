@@ -1,2 +1,54 @@
 numList = [2,5,13,453]
 print(numList[1])
+
+Modulist 
+>>>>>>>>>>>>>>>>>>
+import random
+numList = []
+for i in range (20):
+    numList.append(random.randint(1,1000))
+for i in numList:
+    if(i%2==0):
+        print(i, 'Is an even number')
+    else:
+        print(i, 'Is an odd number')
+<<>>>>>>>>>>>>>>>>>>>>>>>>>
+Odd,even
+
+import random
+numList = []
+oddList = []
+evenList = []
+for i in range(20):
+    numList.append(random.randint(1,1000))
+for i in numList:
+    if(i%2==0):
+        evenList.append(i)
+    else:
+        oddList.append(i)
+print(numList)
+print(evenList)
+print(oddList)
+>>>>>>>>>>>>>>>>>>>>>
+grade = int(input("Enter in your grade. "))
+if(grade <= 100 and grade > 89):
+    print('A')
+elif(grade <= 89 and grade > 79):
+    print('B')
+elif(grade <= 79 and grade > 69):
+    print('C')
+elif(grade <= 69 and grade > 59):
+    print('D')
+   >>>>>>>>>>>>>>>>>>>>>
+   
+   def getGrade(n):
+    if (grade <= 100 and grade > 89):
+        return 'A'
+    elif(grade <= 89 and grade > 69):
+        return 'Between B and C'
+    elif(grade <= 69 and grade > 59):
+        return 'Between D and F'
+grade = int(input("Enter in your grade."))
+print ('Your grade is', getGrade ( grade ))
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+
