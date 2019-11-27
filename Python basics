@@ -1,0 +1,2 @@
+numList = [2,5,13,453]
+print(numList[1])
