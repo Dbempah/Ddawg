@@ -52,3 +52,14 @@ grade = int(input("Enter in your grade."))
 print ('Your grade is', getGrade ( grade ))
 >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
+c1 = input("Enter in first color. ")
+c2 = input ("Enter in second color. ")
+if(c1.lower() == 'red' and c2.lower() == 'blue'):
+    print("The color is purple")
+elif(c1.lower() == 'red' and c2.lower() == 'green'):
+    print("The color is yellow")
+elif(c1.lower() == 'red' and c2.lower() == 'green'):
+    print("The color is yellow")
+elif(c1.lower() == 'blue' and c2.lower() == 'green'):
+    print("The color is cyan")
+    >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
